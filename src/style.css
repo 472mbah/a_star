@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.block_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.block_container_child {
+    margin: 0 1em;
+}
+
+#panel_container  {
+    padding: 1em;
+    width: 25vw;
+    box-shadow: none;
+    border-radius: 10px;
+    border:1px solid #f3f3f3;
+    display: grid;
+    grid-gap: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#panel_container h1, h2, p {
+    padding:none;
+    margin:0;
+}
+
+#panel_container input {
+    font-family: 'Roboto Condensed', sans-serif;
+    border: none;
+    outline:none
+}
+
+#panel_container button {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    font-weight: medium;
+    padding:1em;
+    outline:none;
+    border-radius: 5px;
+}
+
+#panel_container button:hover {
+    box-shadow:0px 0px 1px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    cursor: pointer;
+}
+
